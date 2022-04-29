@@ -40,26 +40,30 @@ body {
 	width: 25px;
 	height: 15px;
 	background: url(/images/sotr_2.svg) no-repeat;
+	/* background-image: url(/images/sort_4.svg); */
+	/* background: url(/images/sort_4.svg) no-repeat; */
+
 	margin: 0px 30px 11px 0px;
 	cursor: pointer;
 }
-.sort-black-down {
+/* .sort-black-down {
 	display: none;
-}
-.sort-grey-down {
+} */
+/* .sort-grey-down {
 	display: block;
-}
+} */
 .sorting:hover {
 	background: url(/images/sort_1.svg) no-repeat;
+	/* background: url(/images/sotr_2.svg); */
 	cursor: pointer;
 	transition: 0.5s;
 }
-.sort-grey-up {
+/* .sort-grey-up {
 	display: none;
 }
 .sort-black-up {
 	display: none;
-}
+} */
 
 
 .conteiner-input-to-do {
