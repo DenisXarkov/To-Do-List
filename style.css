@@ -39,27 +39,27 @@ body {
 .sorting {
 	width: 25px;
 	height: 15px;
-	background: url(/images/sort_1.svg);
+	background: url(images/sort_1.svg);
 
 	margin: 0px 30px 11px 0px;
 	cursor: pointer;
 }
 
 .sorting:hover{
-	background: url(/images/sotr_2.svg);
+	background: url(images/sotr_2.svg);
 }
 
 .sorting__down{
 	width: 25px;
 	height: 15px;
-	background: url(/images/sort_4.svg);
+	background: url(images/sort_4.svg);
 	margin: 0px 30px 11px 0px;
 	display: none;
 	cursor: pointer;
 }
 
 .sorting__down:hover{
-	background: url(/images/sort_3.svg);
+	background: url(images/sort_3.svg);
 }
 
 
@@ -163,7 +163,6 @@ padding-top: 10px;
 .deleteTodo{
 	border: 1px solid #C4C4C4;
 	border-radius: 50%;
-	/* cursor: pointer; */
 	text-align: center;
 	margin:  0px 10px 0px 0px;
 	box-sizing: border-box;
