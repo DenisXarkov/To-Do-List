@@ -7,15 +7,6 @@ let sortButton = document.querySelector('.sorting');
 let sortUp = document.querySelector('.sorting__down');
 
 
-// if (sortButton.style.display === 'block'){
-// 	sortButton.style.display = 'none';
-// 	sortUp.style.display = 'block';
-// } else {
-// 	sortButton.style.display = 'block';
-// 	sortUp.style.display = 'none';
-// }
-
-
 sortConteiner.addEventListener('click', sortingToDo);
 button.addEventListener('click', clickButton);
 toDo.addEventListener('input', inputToDo);
@@ -55,8 +46,9 @@ function clickButton() {
 	classListDelete.add('deleteTodo');
 	inputToDoList = '';
 	toDo.value = '';
+	// elementDelete.innerText = 'x'
 	elementDelete.addEventListener("click", clickDeleteButton);
-	taskToDo.style.display = 'block'
+	taskToDo.style.display = 'block';
 	console.log(arr);
 }
 
